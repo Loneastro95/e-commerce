@@ -1,0 +1,120 @@
+.main-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 80px 40px;
+}
+
+.left-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+    gap: 20px;
+}
+.mainImg{
+    width: 80%;
+    min-height: 350px;
+    border-radius: 20px;
+}
+
+.img-container{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+}
+.smallImg{
+    width: 110px;
+    border-radius: 12px;
+    
+}
+.right-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 50%;
+    gap: 50px;
+}
+
+.content-text{
+  width: 60%;
+  
+}
+
+.companyName{
+    font-size: 18px;
+    color: rgb(150, 143, 143);
+}
+
+.productTitle{
+    font-size: 38px;
+}
+
+.price{
+    display: flex;
+    gap: 20px
+}
+
+.priceTag{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.discountTag{
+    font-size: 18px;
+    font-weight: bold;
+    color: rgb(150, 143, 143);
+    text-decoration: line-through;
+}
+.discountPercent{
+    font-size: 18px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #000;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.count-container{
+    display: flex;
+    gap: 10px;
+}
+
+.count{
+    display: flex;
+    gap: 5px;
+    background-color: rgb(232, 232, 232);
+    justify-content: center;
+    align-items: center;
+    padding: 0 20px;
+    border-radius: 5px;
+    width: 150px;
+    gap: 30px
+}
+
+.countButton{
+    border: none;
+    color: rgb(217, 120, 8);
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.addCart{
+    background-color: rgb(254, 137, 3);
+    color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 20px;
+    width: 300px;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+button{
+    border: none;
+    cursor: pointer;
+}
